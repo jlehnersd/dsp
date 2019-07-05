@@ -1,9 +1,9 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
 The value of Cohen's d for these two groups is -0.089
-
 The code I wrote to determine this is:
 
+```python
 import nsfg
 import thinkstats2
 import math
@@ -32,3 +32,4 @@ def cohend(group1, group2):
 
 d = cohend(first_weight, nonfirst_weight)
 print(d)
+```
